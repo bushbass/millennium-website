@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 10px;;
   /*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
-    background: rgb(74, 80, 88);
+    background: rgb(51, 54, 59);
     background-attachment: fixed;
     background-size: cover;
     color: rgb(190, 189, 189);
@@ -75,6 +75,23 @@ body {
         opacity: .85;
     }
   }
+  .about{
+    display:flex
+    padding: 15px;
+  }
   .funding-and-credit {
     display: flex;
+    
+    flex-wrap: wrap;
   }
+  .funding, .credit{
+    flex:1;
+    padding: 15px;
+    min-width: 384px;
+  }
+  #funding-img, #credit-img {
+    max-width: 384px;
+  }
+  
+
+ 
