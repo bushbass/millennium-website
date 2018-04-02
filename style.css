@@ -83,7 +83,7 @@ button {
 }
 .funding-and-credit {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   padding: 10px;
 }
@@ -115,7 +115,7 @@ button {
 }
 .services-inner-container {
   display:flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 
 }
@@ -123,8 +123,29 @@ button {
   flex:1;
   padding: 15px;
   text-align: center;
+  max-width: 500px;
 }
 .services-left-container img, .services-right-container img {
   max-width: 384px;
 }
 
+/* SUBSCRIBE */
+.subscribe {
+  background: url('img/mailing-list-background.webp');
+  background-size: cover;
+  height: 227px;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+.subscribe h1 {
+  padding-top: 20px;
+}
+.subscribe form input {
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+  height: 45px;
+  width: 384px;
+margin-bottom: 15px;
+}
