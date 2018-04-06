@@ -6,7 +6,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: rgb(190, 189, 189);
-  font-family: 'Arial', arial, sans-serif;
+  font-family: 'Open Sans', arial, sans-serif;
   font-weight: 400;
 }
 
@@ -172,4 +172,30 @@ margin-bottom: 15px;
 }
 .left-container img, .right-container img {
   max-width: 384px;
+}
+.container form input {
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+  height: 45px;
+  width: 350px;
+margin-bottom: 15px;
+}
+.container form input::placeholder {
+  padding-left: 15px;
+  font-size: 1.2rem;
+  color: white;
+}
+.container form textarea {
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+  /* height: 45px; */
+  width: 350px;
+margin-bottom: 15px;
+}
+.container form textarea::placeholder {
+  padding-left: 15px;
+  font-size: 1.2rem;
+  color: white;
 }
