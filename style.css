@@ -106,7 +106,7 @@ button {
 }
 .services-title{
   text-align: center;
-  padding-top: 20px;ock;
+  padding-top: 20px;
 }
 .services-title hr {
   width: 20%;
@@ -168,7 +168,9 @@ margin-bottom: 15px;
 .left-container, .right-container {
   flex:1;
   justify-content: flex-start;
-  text-align: center;
+  /*text-align: center;*/
+  padding: 15px;
+  
 }
 .left-container img, .right-container img {
   max-width: 384px;
@@ -198,4 +200,21 @@ margin-bottom: 15px;
   padding-left: 15px;
   font-size: 1.2rem;
   color: white;
+}
+td {
+  text-align: left;
+}
+/*MAP*/
+.map {
+  display:flex;
+  justify-content: center;
+  height: 250px;
+}
+/*FOOTER*/
+footer {
+  text-align: center;
+}
+footer a {
+  color: rgb(190, 189, 189);
+  text-decoration: none;
 }
